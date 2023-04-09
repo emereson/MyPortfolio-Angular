@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-link:hover{
+    color: rgb(255, 196, 0) !important;
+}
+
+.bx:hover{
+    color: rgb(224, 0, 45)!important;
+}
+.li-icon:hover{
+    border-color: rgb(224, 0, 45) !important;
+}
+.navbar{
+    box-shadow: 0rem 0rem 1.5rem 0rem rgba(56, 0, 11, 0.348) !important;
+}

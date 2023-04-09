@@ -1,0 +1,168 @@
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    color: rgb(11, 215, 246);
+}
+.container-skill{
+    padding-left: 1.5em;
+    width: 90%;
+    max-width: 550px;
+}
+.container-skill h1 {
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 1em;
+}
+.skill{
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+.skill i {
+    font-size: 1.5em;
+    text-align: center;
+    display: contents;
+    align-items: center;
+    justify-content: center;
+    color: rgb(222, 0, 115);
+}
+.skill h3{
+    padding-left: 0.5em;
+    display: inline-block;
+    padding-bottom: 1.1em;
+    font-weight: 800;
+    color: rgb(11, 215, 246);
+}
+.skill h4{
+    float: right;
+    font-weight: 700;
+}
+.skill-bar{
+    margin-top: 1.5em;
+    position: absolute;
+    top: 0.9em;
+    left: 0;
+    width: 100%;
+    height: 1.2em;
+    border-radius: 1em;
+    border: 0.1em solid #00b682;
+}
+
+.fill-bar{
+    margin-top: 1.5em;
+    position: absolute;
+    top: 1em;
+    left: 0;
+    height: 1em;
+    border-radius: 1em;
+    background: #00b682;
+}
+
+.js{
+    animation: js 2s;
+    width: 95%;
+}
+
+.html{
+    animation: html 2s;
+    width: 85%;
+}
+
+.css{
+    animation: css 2s;
+    width: 70%;
+}
+
+.ReactJs{
+    animation: ReactJs 2s;
+    width: 85%;
+}
+
+.NodeJs{
+    animation: NodeJs 2s;
+    width: 65%;
+}
+
+.Bootstrap{
+    animation: Bootstrap 2s;
+    width: 65%;
+}
+
+.angular{
+    animation: angular 2s;
+    width: 65%;
+}
+
+@keyframes js{
+    from{
+        width: 0;
+    }
+    to{
+        width: 95%;
+    }
+}
+
+@keyframes html{
+    from{
+        width: 0;
+    }
+    to{
+        width: 85%;
+    }
+}
+
+@keyframes css{
+    from{
+        width: 0;
+    }
+    to{
+        width: 70%;
+    }
+}
+
+@keyframes ReactJs{
+    from{
+        width: 0;
+    }
+    to{
+        width: 85%;
+    }
+}
+
+@keyframes NodeJs{
+    from{
+        width: 0;
+    }
+    to{
+        width: 65%;
+    }
+}
+
+@keyframes Bootstrap{
+    from{
+        width: 0;
+    }
+    to{
+        width: 65%;
+    }
+}
+
+@keyframes angular{
+    from{
+        width: 0;
+    }
+    to{
+        width: 85%;
+    }
+}
+
+@media (max-height: 500px) {
+    .container{
+        margin-top: 2em;
+        scale: 0.5;
+    }
+}
