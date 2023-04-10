@@ -17,3 +17,28 @@
 .navbar{
     box-shadow: 0rem 0rem 1.5rem 0rem rgba(56, 0, 11, 0.348) !important;
 }
+
+.next__page header{
+    position: absolute;
+    bottom: -2rem;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    z-index: 2;
+    right: 0;
+    bottom: 2rem;
+}
+.next__link{
+    color: rgb(243, 36, 78);
+    text-decoration: none;
+
+}
+.bx-right-arrow-alt{
+    font-size: 2rem;
+    color: rgb(243, 36, 78);
+    cursor: pointer;
+}
